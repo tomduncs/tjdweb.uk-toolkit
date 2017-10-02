@@ -1,0 +1,33 @@
+.Skills {
+	&-column {
+		@media (min-width: 768px) {
+			width: 50%;
+			float: left;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0.5em 0;
+			padding: 0;
+
+			li {
+				font-size: 1.25em;
+				margin-bottom: 0.5em;
+				
+				@media (min-width: 768px) {
+					font-size: 1.5em;
+				}
+
+				&:before {
+					font-family: "Ionicons";
+					content: "\f120";
+					color: $brand-green;
+					padding-right: 0.5em;
+					font-size: 1.1em;
+					vertical-align: middle;
+					line-height: 1;
+				}
+			}
+		}
+	}
+}

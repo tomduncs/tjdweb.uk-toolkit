@@ -1,0 +1,25 @@
+@mixin background-center-cover {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@mixin list-nostyle {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin-bottom: 0;
+	}
+}
+
+@mixin list-inline {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+
+	li {
+		display: inline-block;
+	}
+}

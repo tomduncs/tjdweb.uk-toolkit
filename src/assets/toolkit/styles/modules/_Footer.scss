@@ -1,0 +1,38 @@
+.Footer {
+	height: 130px;
+	color: #fff;
+
+	a {
+		color: inherit;
+	}
+
+	&-top {
+		background: $brand-green;
+		padding: 1.5rem;
+
+		&-links {
+			a {
+				display: inline-block;
+				margin-right: 1em;
+			}
+
+			i {
+				display: inline-block;
+				font-size: 1.5em;
+				vertical-align: middle;
+				padding-right: 0.25rem;
+			}
+
+			span {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	&-bottom {
+		background: $brand-dark;
+		padding: 1.5rem;
+		font-size: 0.875em;
+	}
+}
