@@ -1,6 +1,8 @@
 .Footer {
-	height: 150px;
+	height: 154px;
 	color: #fff;
+	background: $brand-dark;
+	box-shadow: 0px -1px 8px 1px rgba(125, 125, 125, 0.5);
 
 	a {
 		color: inherit;
