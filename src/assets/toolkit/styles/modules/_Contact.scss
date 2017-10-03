@@ -1,0 +1,32 @@
+.Contact {
+	&-links {
+		margin-bottom: 2em;
+		a {
+			color: $brand-dark;
+			display: block;
+			margin: 0.5em 0;
+			font-size: 1.25em;
+
+			@media (min-width: 768px) {
+				font-size: 1.5em;
+			}
+
+			&:hover {
+				color: $brand-orange;
+			}
+
+			i {
+				font-size: 1.1em;
+				display: inline-block;
+				vertical-align: middle;
+				padding-right: 0.25em;
+				width: 35px;
+			}
+
+			span {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+}

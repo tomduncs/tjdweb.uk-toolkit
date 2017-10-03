@@ -1,5 +1,5 @@
 .Footer {
-	height: 130px;
+	height: 150px;
 	color: #fff;
 
 	a {
@@ -13,7 +13,8 @@
 		&-links {
 			a {
 				display: inline-block;
-				margin-right: 1em;
+				margin-right: 1.5em;
+				padding: 0.25em 0;
 			}
 
 			i {
