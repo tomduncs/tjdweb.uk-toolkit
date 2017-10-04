@@ -3,7 +3,7 @@
 	min-height: 100%;
 	margin-bottom: -154px;
 	background: #efefef;
-	background-image: url('/assets/toolkit/images/pattern.png');
+	background-image: url('../images/pattern.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -14,5 +14,13 @@
 
 	.push {
 		height: 190px;
+	}
+
+	@media (max-width: 503px) {
+		margin-bottom: -182px;
+
+		.push {
+			height: 210px;
+		}
 	}
 }
